@@ -14,7 +14,7 @@ class PDF(FPDF):
         self.set_font('Arial','I',8)
         self.cell(0, 10, f'Pagina {self.page_no()}', 0, 0, 'C' )
 
-class form(ft.UserControl):
+class form(ft.Container):
     # constructor
     def __init__(self, page):
         super().__init__(expand=True)#<- expande el contenedor
@@ -44,7 +44,7 @@ class form(ft.UserControl):
             expand=True
             ,border=ft.border.all(2,'green')
             ,data_row_color={ft.MaterialState.SELECTED:'purple'
-                             ,ft.MaterialState.PRESSED:'black'}
+                             ,ft.MaterialState.PRESSED:ft.colors.BLACK}
             ,border_radius=10
             ,show_checkbox_column=True
             ,columns=[
