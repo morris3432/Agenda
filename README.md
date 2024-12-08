@@ -5,3 +5,5 @@ una base de datos relacional SQL hecha con SQLite en esta programa se
 puede añadir ,actualizar, borrar y descargar en pdf o para excel 
 
 ![ejemplo](./image/Captura%20de%20pantalla%202024-12-07%20180728.png)
+
+Descarga [aqui](https://github.com/morris3432/Agenda/releases/tag/1.0.0)
